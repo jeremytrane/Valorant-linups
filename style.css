@@ -94,9 +94,6 @@ button {
 .card4{
     background-image: url(images/Viper.png);
 }
-.card5{
-    background-image: url(images/Phoenix.png);
-}
 .card:hover{
     transform: translateY(-10px);
 }
@@ -107,4 +104,20 @@ h5{
 .card p{
     text-shadow: 0 0 15px #000;
     font-size: 12px;
+}
+.card5{ 
+    height: 150px;
+    width: 615px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/Phoenix.png);
+    background-size: cover;
+    transition: transform 0.7s;
+}
+.card5:hover:hover{
+    transform: translateY(-10px);
 }
