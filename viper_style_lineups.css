@@ -83,16 +83,16 @@ button {
     transition: transform 0.7s;
 }
 .card1{
-    background-image: url(images/Agents/Fade.png);
+    background-image: url(images/Fade.png);
 }
 .card2{
-    background-image: url(images/Agents/Kayo.png);
+    background-image: url(images/Kayo.png);
 }
 .card3{
-    background-image: url(images/Agents/Sova.png);
+    background-image: url(images/Sova.png);
 }
 .card4{
-    background-image: url(images/Agents/Viper.png);
+    background-image: url(images/Viper.png);
 }
 .card:hover{
     transform: translateY(-10px);
@@ -114,7 +114,7 @@ h5{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(images/Agents/Phoenix.png);
+    background-image: url(images/Phoenix.png);
     background-size: cover;
     transition: transform 0.7s;
 }
