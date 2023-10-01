@@ -10,7 +10,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/images/kayo_background.jpg);
     background-position: center;
     background-size: cover; /* Adjust this as per requirement */
-    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
     background-attachment: fixed;
     padding-left: 8%;
     padding-right: 8%;
@@ -71,6 +70,57 @@ nav ul li a{
 }
 .card5{
     background-image: url(images/Agents/Phoenix.png);
+}
+.card6{
+    background-image: url(images/Agents/Brimstone.png);
+}
+.card7{
+    background-image: url(images/Agents/Gekko.png);
+}
+.card8{
+    background-image: url(images/Agents/Jett.png);
+}
+.card9{
+    background-image: url(images/Agents/Sage.png);
+}
+.card10{
+    background-image: url(images/Agents/Omen.png);
+}
+.card11{
+    background-image: url(images/Agents/Breach.png);
+}
+.card12{
+    background-image: url(images/Agents/Raze.png);
+}
+.card13{
+    background-image: url(images/Agents/Cypher.png);
+}
+.card14{
+    background-image: url(images/Agents/Killjoy.png);
+}
+.card15{
+    background-image: url(images/Agents/Skye.png);
+}
+.card16{
+    background-image: url(images/Agents/Yoru.png);
+}
+.card17{
+    background-image: url(images/Agents/Astra.png);
+}
+.card18{
+    background-image: url(images/Agents/Chamber.png);
+}
+.card19{
+    background-image: url(images/Agents/Neon.png);
+}
+.card20{
+    background-image: url(images/Agents/Harbor.png);
+}
+.card21{
+    background-image: url(images/Agents/Deadlock.png);
+}
+.card22{
+    background-image: url(images/Agents/Reyna.png);
 }
 .card:hover{
     transform: translateY(-10px);
