@@ -9,7 +9,9 @@
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/kayo_background.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; /* Adjust this as per requirement */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    background-attachment: fixed;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
