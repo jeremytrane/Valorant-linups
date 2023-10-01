@@ -15,6 +15,16 @@
     padding-right: 8%;
     box-sizing: border-box;
 }
+.cards-wrapper {
+    max-height: calc(100vh - 12%);
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.cards-wrapper::-webkit-scrollbar {
+    display: none;
+}
 .navbar {
     height: 12%;
     display: flex;
