@@ -7,7 +7,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/kayo_background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/images/kayo_background.jpg);
     background-position: center;
     background-size: cover; /* Adjust this as per requirement */
     background-repeat: no-repeat; /* Ensure the image doesn't repeat */
@@ -44,35 +44,6 @@ nav ul li a{
     color: #fff;
     font-size: 30px;
 }
-.row {
-    display: flex;
-    height: 80%;
-    align-items: center;
-}
-.col {
-    flex-basis: 50%;
-}
-h1 {
-    color: #fff;
-    font-size: 100px;
-}
-p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 18px;
-}
-button {
-    width: 180px;
-    color: #000;
-    font-size: 12px;
-    padding: 12px 0;
-    background: #fff;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-    cursor: pointer;
-}
 .card{
     width: 290px;
     height: 260px;
@@ -99,12 +70,7 @@ button {
     background-image: url(images/Agents/Viper.png);
 }
 .card5{
-    height: 150px;
-    width: 615px;
     background-image: url(images/Agents/Phoenix.png);
-    background-position: unset;
-    background-size: cover;
-    transition: transform 0.7s;
 }
 .card:hover{
     transform: translateY(-10px);
@@ -114,6 +80,7 @@ h5{
     text-shadow: 0 0 5px #999;
 }
 .card p{
+    color: #fff;
     text-shadow: 0 0 15px #000;
     font-size: 12px;
 }
