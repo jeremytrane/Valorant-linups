@@ -118,6 +118,6 @@ h5{
     background-size: cover;
     transition: transform 0.7s;
 }
-.card5:hover:hover{
+.card5:hover{
     transform: translateY(-10px);
 }
