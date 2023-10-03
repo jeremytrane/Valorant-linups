@@ -86,6 +86,7 @@ button {
     background-size: cover;
     transition: transform 0.7s;
 }
+
 .card1{
     background-image: url(images/Agents/Fade.png);
 }
@@ -103,11 +104,12 @@ button {
     width: 615px;
     background-image: url(images/Agents/Phoenix.png);
     background-position: unset;
-    background-size: cover;
-    transition: transform 0.7s;
+    transition: transform 1s;
 }
 .card:hover{
-    transform: translateY(-10px);
+    animation: tiltAndSpin 2s;
+    animation-iteration-count: 1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 h5{
     color: #fff;
@@ -116,4 +118,15 @@ h5{
 .card p{
     text-shadow: 0 0 15px #000;
     font-size: 12px;
+}
+@keyframes tiltAndSpin {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
