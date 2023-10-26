@@ -119,6 +119,21 @@ h5{
     text-shadow: 0 0 15px #000;
     font-size: 12px;
 }
+.download_icon {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px;
+}
+.download_icon a {
+    display: inline-block; 
+    transition: transform 0.3s; 
+}
+.download_icon a:hover {
+    transform: scale(1.2);
+}
+.download_icon a:hover img {
+    filter: brightness(0) invert(1);
+}
 @keyframes tiltAndSpin {
     0% {
         transform: rotate(0);
