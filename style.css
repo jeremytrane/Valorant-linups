@@ -123,16 +123,33 @@ h5{
     position: absolute;
     bottom: 20px; 
     left: 20px;
+    text-align: center; /* Center-align the tooltip */
 }
 .download_icon a {
-    display: inline-block; 
+    display: inline-block;
+    position: relative; /* Add relative positioning to the parent container */
     transition: transform 0.3s; 
+}
+.download_icon a .tooltip {
+    opacity: 0; /* Initially hide the tooltip */
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the tooltip */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    bottom: 100%; /* Position above the icon */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    transition: opacity 0.3s; /* Add a transition for a smooth appearance */
 }
 .download_icon a:hover {
     transform: scale(1.2);
 }
 .download_icon a:hover img {
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1); /* This will make the icon white on hover */
+}
+.download_icon a:hover .tooltip {
+    opacity: 1; /* Show the tooltip on hover */
 }
 @keyframes tiltAndSpin {
     0% {
